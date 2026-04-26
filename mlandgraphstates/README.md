@@ -44,14 +44,6 @@ Exploratory code for:
 - calculation of sector lengths from density matrices,
 - comparison of correlation sectors across different quantum states. [file:150]
 
-### `graph_sector_ml.py`
-New combined pipeline for:
-- generating weighted graph states,
-- sampling measurement protocols,
-- computing post-measurement sector lengths,
-- computing cluster fidelity,
-- training ML models to predict sector lengths and output quality,
-- ranking measurement protocols to find the best output states quickly.
 
 ### `graph_sector_notebook.ipynb`
 Notebook for:
