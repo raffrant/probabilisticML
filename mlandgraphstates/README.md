@@ -30,7 +30,7 @@ We evaluate outputs in two complementary ways:
 
 ## Main files
 
-### `graph_state_ml2.py`
+### `mlandsectorlengths.py`
 Original weighted graph-state pipeline with:
 - weighted CZ graph-state generation,
 - projective measurement on selected qubits,
