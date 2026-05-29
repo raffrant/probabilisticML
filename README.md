@@ -26,7 +26,7 @@ Projects
 
 Folder: basketball/
 
-This project analyzes basketball players and matches from the most recent EuroLeague season. The focus is on extracting useful patterns from team and player performance, comparing metrics across games, and understanding the factors that shape match outcomes.
+This project analyzes basketball players and matches from the most recent EuroLeague season. The focus is on extracting useful patterns from team and player performance, comparing metrics across games, and understanding the factors that shape match outcomes. Specifically, we focused on Kendrick Nunn (Panathinaiko's player) to find each true shooting.
 
 Typical tasks in this folder may include:
 
@@ -54,8 +54,8 @@ The NBA workflow typically includes:
 
     estimating the probability of an over/under outcome,
 
-    evaluating predictive performance on held-out games.
-
+    give a prediction O/U along with a percentage of your bankroll you can bet. 
+    
 3. Football Over/Under 2.5 Goals Prediction
 
 Folder: premierleague/
@@ -64,7 +64,7 @@ This project predicts whether a football match will finish over or under 2.5 goa
 
 The football workflow typically includes:
 
-    analyzing team scoring and conceding history,
+    analyzing team scoring and conceding history (multiple seasons analysis using football api)
 
     incorporating recent form and season context,
 
@@ -163,7 +163,7 @@ Planned improvements may include:
 
 Notes
 
-Each folder can have its own data sources, preprocessing logic, and modeling assumptions. For that reason, the best way to use this repository is to treat each project as its own mini-pipeline inside the broader sports ML collection.
+Each folder can have its own data analysis, logic, and modeling assumptions. For that reason, the best way to use this repository is to treat each project as its own mini-pipeline inside the broader sports ML collection.
 License
 
-Add your preferred license here.
+MIT license
